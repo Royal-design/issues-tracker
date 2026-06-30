@@ -5,7 +5,6 @@ from app.models.issues import Issue
 
 issues = [
     {
-        "id": 1,
         "title": "Login page bug",
         "description": "Users cannot log in with Google.",
         "status": IssueStatus.open,
@@ -14,7 +13,6 @@ issues = [
         "updated_at": "2026-06-30T10:00:00Z",
     },
     {
-        "id": 2,
         "title": "Update dashboard UI",
         "description": "Improve spacing and responsiveness.",
         "status": IssueStatus.in_progress,
@@ -23,7 +21,6 @@ issues = [
         "updated_at": "2026-06-30T08:15:00Z",
     },
     {
-        "id": 3,
         "title": "Fix email notification",
         "description": "Email isn't sent after issue creation.",
         "status": IssueStatus.closed,
